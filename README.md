@@ -60,3 +60,8 @@ ppMEG('w', 200)                           % write on the writing port (default =
 WaitSecs(0.008)                           % wait a few milliseconds
 ppMEG('w', 0)                             % reset the writing port
 ```
+
+## Additional information
+
+- [Parallel port on Wikipedia](https://en.wikipedia.org/wiki/Parallel_port), with an overview of the pins layout in [this section](https://en.wikipedia.org/wiki/Parallel_port#Pinouts).
+- [Documentation on ppdev](http://www.linuxfocus.org/common/src/article205/ppdev.html): this is the programming interface used here.
